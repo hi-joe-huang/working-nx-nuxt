@@ -1,5 +1,9 @@
+<script setup lang="ts">
+const foo = ref('b')
+</script>
 <template>
   <div class="about">
+    {{ foo }}
     <h1>This is an about page.</h1>
   </div>
 </template>
